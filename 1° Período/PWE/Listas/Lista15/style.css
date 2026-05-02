@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    display: flex; 
+    list-style-type: none;
+    justify-content: center;
+    background-color: black; 
+    gap: 20px;
+
+}
+ul li a {
+    text-decoration: none; 
+    flex-direction: row; 
+    background-color: black;    
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    background-size: 45px;
+    margin-top: 10px;
+    padding: 15px;   
+    padding-top: 60px;
+    border-bottom: 4px solid transparent;
+    display: inline-block;   
+    transition: 0.3s;
+    letter-spacing: 1px;
+    
+}
+
+.Facebook:link , .Facebook:visited {
+    font-family: "Oswald";
+    font-size: 20px;
+    background-image: url(IMG/faceBlack.png);    
+    color: white; 
+
+    
+}
+
+.Facebook:hover {
+    background-image: url(IMG/face.png);
+    color: rgb(24, 119, 242) ;
+    border-bottom: 4px solid rgb(24, 119, 242);
+}
+
+.Instagram:link , .Instagram:visited {
+    color: white; 
+    font-family: "Oswald";
+    font-size: 20px;
+    background-image: url(IMG/instaBlack.png);
+ 
+}
+
+.Instagram:hover {
+    background-image: url(IMG/insta.png);
+    color: rgb(131, 58, 180) ;
+    border-bottom: 4px solid rgb(131, 58, 180);
+}
+
+.Maps:link , .Maps:visited {
+    color: white;
+    font-family: "Oswald";
+    font-size: 20px;
+    background-image: url(IMG/mapsBlack.png);
+  
+}
+
+.Maps:hover {
+    background-image: url(IMG/maps.png);
+    color: rgb(30, 144, 255) ;
+    border-bottom: 4px solid rgb(30, 144, 255);
+}
+
+.Twitter:link , .Twitter:visited {
+    color: white;
+    font-family: "Oswald";
+    font-size: 20px;
+    background-image: url(IMG/twitterBlack.png);
+}
+
+.Twitter:hover {
+    background-image: url(IMG/twitter.png);
+    color: rgb(29, 161, 242) ;
+    border-bottom: 4px solid rgb(29, 161, 242);
+}
+
+.Youtube:link , .Youtube:visited {
+    color: white; 
+    font-family: "Oswald";
+    font-size: 20px;
+    background-image: url(IMG/youtubeBlack.png);
+
+}
+
+.Youtube:hover {
+    background-image: url(IMG/youtube.png);
+    color: rgb(255, 0, 0) ;
+    border-bottom: 4px solid rgb(255, 0, 0);
+}
